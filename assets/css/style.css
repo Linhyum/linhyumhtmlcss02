@@ -720,12 +720,20 @@ a {
     display: flex;
 }
 
-.footer-col {
-    width: 21.6%;
+.footer-col:first-child {
+    width: calc(412 / 1170 * 100%) ;
 }
 
-.footer-col:first-child {
-    width: 35%;
+.footer-col:nth-child(2) {
+    width: calc(260 / 1170 * 100%) ;
+}
+
+.footer-col:nth-child(3) {
+    width: calc(266 / 1170 * 100%) ;
+}
+
+.footer-col:last-child {
+    width: calc(232 / 1170 * 100%) ;
 }
 
 .footer-social {
